@@ -1,0 +1,40 @@
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Author:         Ibrahim Sardar
+//  Class:          CSCI 363
+//  Filename:       Array.mpc
+//  Date:           08/27/2017
+//  Description:    MPC file for the custom array class.
+//                  This file handles all dependecies.
+//
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Honor Pledge:
+//
+//  I pledge that I have neither given nor received any help on this assignment.
+//
+//  ibsardar
+//
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Copyright (c) 2017 Copyright Holder All Rights Reserved.
+//
+////////////////////////////////////////////////////////////////////////////////
+
+project (ArrayProject) {
+
+    exename = out
+
+    Source_Files {
+        Array.cpp
+    }
+
+    Header_Files {
+        Array.h
+    }
+
+    Inline_Files {
+        Array.inl
+    }
+
+}

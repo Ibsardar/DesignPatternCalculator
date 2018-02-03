@@ -1,0 +1,58 @@
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Author:         Ibrahim Sardar
+//  Class:          CSCI 363
+//  Filename:       Composition.mpc
+//  Date:           09/26/2017
+//  Description:    MPC file for assignment #2.
+//                  This file handles all dependencies.
+//
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Honor Pledge:
+//
+//  I pledge that I have neither given nor received any help on this assignment.
+//
+//  ibsardar
+//
+////////////////////////////////////////////////////////////////////////////////
+//
+//  Copyright (c) 2017 Copyright Holder All Rights Reserved.
+//
+////////////////////////////////////////////////////////////////////////////////
+
+project (CompositionProject) {
+
+    exename = Composition
+
+    Source_Files {
+        driver.cpp
+    }
+
+    Header_Files {
+        Base_Array.h
+        Array.h
+        Fixed_Array.h
+        Stack.h
+        Queue.h
+    }
+
+    Inline_Files {
+        Base_Array.inl
+        Array.inl
+        Stack.inl
+        Queue.inl
+    }
+
+    Template_Files {
+        Base_Array.cpp
+        Array.cpp
+        Fixed_Array.cpp
+        Stack.cpp
+        Queue.cpp
+    }
+
+    specific (make) {
+        compile_flags += -std=c++11
+    }
+}
