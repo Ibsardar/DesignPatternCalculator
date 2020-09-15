@@ -27,5 +27,5 @@ _A calculator with multiple versions - each featuring a different set of design 
  - **Atom + GIT** (made coding process much easier, especially with Atom's built-in GIT abilities)
  - **MPC** (to make compiling C++ files easier)
  - **Valgrind** (to help with fixing complicated errors)
- - **Laptop** (enabled me to write gibberish that does cool stuff on a shiny screen man)
- - **Hipster Coffee Mug** (this is essential)
+ - **Laptop** (enabled me to poof Germanic symbols onto a shiny screen resulting in magic)
+ - **Hipster Coffee Mug** (essential for poofing mentioned above)
